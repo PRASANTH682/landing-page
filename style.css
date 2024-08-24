@@ -3,42 +3,40 @@ body{
     font-family: "Open Sans", sans-serif;
     color: white;
 }
-h1{
-    font-size: 45px;
-    line-height: 1.2;
-    letter-spacing:1px;
+.landing-sec-wrapper div{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    margin-top: 7rem;
 }
-.para{
-    margin-top: 25px;
+.text-wrapper{
+    padding:1rem 0 0 7.5rem;
 }
-p{
-    letter-spacing: 1.5px;
-    line-height: 1.5;
+.text-wrapper h1{
+    font-size: 2.7rem;
 }
-button{
-    margin-top: 20px;
-    padding: 12px 18px;
-    border: none;
-    background-color: #fff;
+.text-wrapper p{
+
+    font-size: 0.9rem;
+    color: aliceblue;
+    margin-top: 1.2rem;
+    letter-spacing: 0.5px;
+}
+.text-wrapper button{
+    margin-top: 1.7rem;
     color: #0056D2;
-    font-size: 1rem;
+    border: none;
+    padding: 8px 17px;
     font-weight: bold;
-    border-radius: 5px;  
+    border-radius: 5px;
 }
-.text-items{
-    width: 500px;
-    margin: 10px 100px 0 100px;
+.text-wrapper button:focus,
+.text-wrapper button:hover{
+    background-color: #093a7e;
+    color: #fff;
 }
 img{
-    width: 510px;
-    margin-top: 150px;
+    width: 85%;
     border-radius: 10px;
-}
-.img-float{
-    float: left;
-}
-button:focus,button:hover{
-    background-color: #093b81;
-    color: white;
-    cursor: pointer;
+    margin-right: 2rem;
 }
